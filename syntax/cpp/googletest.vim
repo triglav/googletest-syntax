@@ -47,9 +47,9 @@ syn keyword GoogleTestDecl
 syn keyword GoogleTestInstantiation
 	    \ INSTANTIATE_TEST_CASE_P REGISTER_TYPED_TEST_CASE_P INSTANTIATE_TYPED_TEST_CASE_P
 
-hi def link GoogleTestSpecial          Special
-hi def link GoogleTestAssert           Macro
-hi def link GoogleTestExpect           Macro
-hi def link GoogleTestDecl             Identifier
-hi def link GoogleTestInstantiation    Statement
+hi def link GoogleTestSpecial          Macro
+hi def link GoogleTestAssert           Statement
+hi def link GoogleTestExpect           Statement
+hi def link GoogleTestDecl             Structure
+hi def link GoogleTestInstantiation    Macro
 
